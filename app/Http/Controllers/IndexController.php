@@ -56,5 +56,34 @@ class IndexController extends Controller
     {
         return view('contact');
     }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function staffs()
+    {
+        return view('staff');
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function members()
+    {
+        return view('members');
+    }
     
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function donations()
+    {
+        return view('donations');
+    }
 }

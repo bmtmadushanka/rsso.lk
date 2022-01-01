@@ -44,14 +44,12 @@
 
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="row align-items-center" style="background-color:#0f0101">
+                        <div class="row align-items-center">
                             <div class="col-md-6">
                                 <div class="carousel-content">
-                                    <!-- <h2>Welcome to RSSO</h2>
-                                    <p>Raigampura Social Service Organaization</p> -->
-                                    <a href="index.html" class="">
-                                        <img src="img/logo-lg.png" alt="Logo" style="height:300px">
-                                    </a>
+                                    <h2>Welcome to RSSO</h2>
+                                    <p>Raigampura Social Service Organaization</p>
+                                    <a class="btn" href="">Read More</a>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -62,14 +60,12 @@
                         </div>   
                     </div>
                     <div class="carousel-item">
-                        <div class="row align-items-center" style="background-color:#0f0101">
+                        <div class="row align-items-center">
                             <div class="col-md-6">
                                 <div class="carousel-content">
-                                    <!-- <h2>Nulla tristique</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur</p> -->
-                                    <a href="index.html" class="">
-                                        <img src="img/logo-lg.png" alt="Logo" style="height:300px">
-                                    </a>
+                                    <h2>Nulla tristique</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                                    <a class="btn" href="">Read More</a>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -80,14 +76,12 @@
                         </div>   
                     </div>
                     <div class="carousel-item">
-                        <div class="row align-items-center" style="background-color:#0f0101">
+                        <div class="row align-items-center">
                             <div class="col-md-6">
                                 <div class="carousel-content">
-                                    <!-- <h2>Pellentesque rutrum</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur</p> -->
-                                    <a href="index.html" class="">
-                                        <img src="img/logo-lg.png" alt="Logo" style="height:300px">
-                                    </a>
+                                    <h2>Pellentesque rutrum</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                                    <a class="btn" href="">Read More</a>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -115,7 +109,7 @@
                 <div class="section-header">
                     <h2>About Us</h2>
                     <p>
-                    Raigampura Social Servises Organization  is a nonprofit organization established for the purpose of serving the underserved communities in Sri Lanka by providing opportunities that developed into a productive member of the society.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac lacus eget nunc imperdiet
                     </p>
                 </div>
                 
@@ -127,10 +121,9 @@
                         <div class="about-content">
                             <h2>Welcome to Our Site</h2>
                             <p>
-                            Welcome to the website of the Raigampura Social Services Organaization, Welfare and Social Insurance.
-                            The website of the RSSO offers easy access to information in connection with the rights and obligations of employees and employers in the field of Social Security.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum rutrum ligula. Integer ac porttitor mi. In finibus vehicula aliquet. Vestibulum et velit placerat pretium lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum rutrum ligula. Integer ac porttitor mi. In finibus vehicula aliquet. Vestibulum et velit placerat pretium lorem
                             </p>
-                            <a class="btn" href="{{route('about')}}">Read More</a>
+                            <a class="btn" href="#">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -141,11 +134,11 @@
                             <img src="img/about-story.jpg" alt="" class="img-fluid">
                         </div>
                         <div class="about-content">
-                            <h2>Our Vision</h2>
+                            <h2>Our Story</h2>
                             <p>
-                            Many people in Sri Lanka come into contact with social services at some point in their lives. When they do they find valuable services provided by a wide range of individuals and organisations. They experience dedicated and skilled workers who are there to protect and support people or help them to deal with challenging circumstances and to get back on track with their lives.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum rutrum ligula. Integer ac porttitor mi. In finibus vehicula aliquet. Vestibulum et velit placerat pretium lorem
                             </p>
-                            <a class="btn" href="{{route('about')}}">Read More</a>
+                            <a class="btn" href="#">Read More</a>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -153,11 +146,11 @@
                             <img src="img/about-goal.jpg" alt="" class="img-fluid">
                         </div>
                         <div class="about-content">
-                            <h2>Our Mission</h2>
-                            <p style="height: 193px;">
-                            Our mission is to put a smile to every child, mother and father in Sri Lanka and the world by ensuring access to education, nutritious food in partnership with donor companies, policy makers, supporters and the community we serve.
+                            <h2>Our Goal</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum rutrum ligula. Integer ac porttitor mi. In finibus vehicula aliquet. Vestibulum et velit placerat pretium lorem
                             </p>
-                            <a class="btn" href="{{route('about')}}">Read More</a>
+                            <a class="btn" href="#">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -165,27 +158,298 @@
         </div>
         <!-- About End -->
 
-         <!-- Call To Action Start -->
-         <div class="call-to-action">
-            <div class="container text-center">
+        <!-- Service Start -->
+        <div class="service">
+            <div class="container">
                 <div class="section-header">
-                    <h2>We Accept Your Donation</h2>
+                    <h2>Services</h2>
                     <p>
-                    we respect you as a family for your donations.children is our future we always protect them 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac lacus eget nunc imperdiet 
                     </p>
                 </div>
-                <a class="btn" href="#" style="background: #f1a212f7;border-radius: 30px;">Donate Now</a>
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="ion-ios-desktop"></i>
+                            </div>
+                            <div class="service-detail">
+                                <h4><a href="">Web Design</a></h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="ion-ios-laptop"></i>
+                            </div>
+                            <div class="service-detail">
+                                <h4><a href="">Web Development</a></h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="ion-ios-tablet-portrait"></i>
+                            </div>
+                            <div class="service-detail">
+                                <h4><a href="">App Design</a></h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="ion-ios-phone-portrait"></i>
+                            </div>
+                            <div class="service-detail">
+                                <h4><a href="">App Development</a></h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="ion-ios-desktop"></i>
+                            </div>
+                            <div class="service-detail">
+                                <h4><a href="">Web Design</a></h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="ion-ios-laptop"></i>
+                            </div>
+                            <div class="service-detail">
+                                <h4><a href="">Web Development</a></h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="ion-ios-tablet-portrait"></i>
+                            </div>
+                            <div class="service-detail">
+                                <h4><a href="">App Design</a></h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="ion-ios-phone-portrait"></i>
+                            </div>
+                            <div class="service-detail">
+                                <h4><a href="">App Development</a></h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- Call To Action End -->        
+        <!-- Service End -->
+
+        <!-- Call To Action Start -->
+        <div class="call-to-action">
+            <div class="container text-center">
+                <div class="section-header">
+                    <h2>Call to Action</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac lacus eget nunc imperdiet 
+                    </p>
+                </div>
+                <a class="btn" href="#">Call To Action</a>
+            </div>
+        </div>
+        <!-- Call To Action End -->
+
+        <!--Pricing start-->
+        <div class="pricing">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Pricing</h2>
+                    <p>
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas 
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="price-content">
+                            <div class="price-plan">
+                                <i class="ion-md-home"></i>
+                                <p class="price-title">Silver</p>
+                                <h2 class="price-amount"><span>$</span>9<span>.99</span><span> / m</span></h2>
+                            </div>
+                            <ul class="price-details">
+                                <li><i class="ion-md-checkmark"></i><strong>HTML5</strong> and <strong>CSS3</strong></li>
+                                <li><i class="ion-md-checkmark"></i><strong>Bootstrap 4</strong></li>
+                                <li><i class="ion-md-checkmark"></i><strong>Well-commented</strong> code</li>
+                                <li><i class="ion-md-close"></i><strong>IonIcons</strong> integrated</li>
+                                <li><i class="ion-md-close"></i>Free <strong>Google Font</strong> integrated</li>
+                                <li><i class="ion-md-close"></i><strong>Responsive</strong> design</li>
+                            </ul>
+                            <a href="#" class="btn mian-btn price-btn">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="price-content features-price">
+                            <div class="price-plan">
+                                <i class="ion-md-star"></i>
+                                <p class="price-title">Gold</p>
+                                <h2 class="price-amount"><span>$</span>19<span>.99</span><span> / m</span></h2>
+                            </div>
+                            <ul class="price-details">
+                                <li><i class="ion-md-checkmark"></i><strong>HTML5</strong> and <strong>CSS3</strong></li>
+                                <li><i class="ion-md-checkmark"></i><strong>Bootstrap 4</strong></li>
+                                <li><i class="ion-md-checkmark"></i><strong>Well-commented</strong> code</li>
+                                <li><i class="ion-md-checkmark"></i><strong>IonIcons</strong> integrated</li>
+                                <li><i class="ion-md-checkmark"></i>Free <strong>Google Font</strong> integrated</li>
+                                <li><i class="ion-md-close"></i><strong>Responsive</strong> design</li>
+                            </ul>
+                            <a href="#" class="btn mian-btn price-btn features-price-btn">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="price-content">
+                            <div class="price-plan">
+                                <i class="ion-md-gift"></i>
+                                <p class="price-title">Platinum</p>
+                                <h2 class="price-amount"><span>$</span>29<span>.99</span><span> / m</span></h2>
+                            </div>
+                            <ul class="price-details">
+                                <li><i class="ion-md-checkmark"></i><strong>HTML5</strong> and <strong>CSS3</strong></li>
+                                <li><i class="ion-md-checkmark"></i><strong>Bootstrap 4</strong></li>
+                                <li><i class="ion-md-checkmark"></i><strong>Well-commented</strong> code</li>
+                                <li><i class="ion-md-checkmark"></i><strong>IonIcons</strong> integrated</li>
+                                <li><i class="ion-md-checkmark"></i>Free <strong>Google Font</strong> integrated</li>
+                                <li><i class="ion-md-checkmark"></i><strong>Responsive</strong> design</li>
+                            </ul>
+                            <a href="#" class="btn mian-btn price-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Pricing End-->
+
+        <!-- Skills Start-->
+        <div class="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Skills</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac lacus eget nunc imperdiet 
+                    </p>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="skill-item">
+                            <h3>Front End Skills</h3>
+                            <div class="skill-name">
+                                <p>HTML</p><p>85%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            
+                            <div class="skill-name">
+                                <p>CSS</p><p>95%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            
+                            <div class="skill-name">
+                                <p>jQuery</p><p>80%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="skill-item">
+                            <h3>Back End Skills</h3>
+                            <div class="skill-name">
+                                <p>PHP</p><p>90%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            
+                            <div class="skill-name">
+                                <p>Laravel</p><p>85%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            
+                            <div class="skill-name">
+                                <p>MySQL</p><p>95%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Skills End-->
         
+        
+        <!-- Counters Start-->
+        <div class="counters">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-6 text-center">
+                        <i class="ion-md-person"></i>
+                        <h2 data-toggle="counter-up">100</h2>
+                        <p>Our Staffs</p>
+                    </div>
+
+                    <div class="col-lg-3 col-6 text-center">
+                        <i class="ion-md-people"></i>
+                        <h2 data-toggle="counter-up">200</h2>
+                        <p>Our Clients</p>
+                    </div>
+
+                    <div class="col-lg-3 col-6 text-center">
+                        <i class="ion-md-checkmark"></i>
+                        <h2 data-toggle="counter-up">300</h2>
+                        <p>Completed Projects</p>
+                    </div>
+
+                    <div class="col-lg-3 col-6 text-center">
+                        <i class="ion-md-trending-up"></i>
+                        <h2 data-toggle="counter-up">400</h2>
+                        <p>Running Projects</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Counters End-->
+
         <!-- Portfolio Start -->
         <div class="portfolio">
             <div class="container">
                 <div class="section-header">
-                    <h2>Our Services</h2>
+                    <h2>Our Portfolio</h2>
                     <p>
-                    We don’t get to choose the opening chapter of our lives, but it’s never too late to change the story.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac lacus eget nunc imperdiet 
                     </p>
                 </div>
 
@@ -269,45 +533,8 @@
                     </div>
                 </div>
             </div>
-            <div style="text-align: center;">
-                <a class="btn" href="{{route('services')}}" style="background-color: #999999;">Show More</a>
-            </div>
         </div>
         <!-- Portfolio End -->
-
-        
-        <!-- Counters Start-->
-        <div class="counters">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-6 text-center">
-                        <i class="ion-md-person"></i>
-                        <h2 data-toggle="counter-up">100</h2>
-                        <p>Our Staffs</p>
-                    </div>
-
-                    <div class="col-lg-3 col-6 text-center">
-                        <i class="ion-md-people"></i>
-                        <h2 data-toggle="counter-up">200</h2>
-                        <p>Our Members</p>
-                    </div>
-
-                    <div class="col-lg-3 col-6 text-center">
-                        <i class="ion-md-checkmark"></i>
-                        <h2 data-toggle="counter-up">300</h2>
-                        <p>Completed Projects</p>
-                    </div>
-
-                    <div class="col-lg-3 col-6 text-center">
-                        <i class="ion-md-trending-up"></i>
-                        <h2 data-toggle="counter-up">400</h2>
-                        <p>Running Projects</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Counters End-->
-
         
         <!-- Team Start -->
         <div class="team">
@@ -315,7 +542,7 @@
                 <div class="section-header">
                     <h2>Meet our team</h2>
                     <p>
-                    Everyone says it, but in our case it’s true: our team is the secret to our success. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac lacus eget nunc imperdiet 
                     </p>
                 </div>
 
@@ -394,7 +621,7 @@
                 <div class="section-header">
                     <h2>Reviews</h2>
                     <p>
-                        What they think about us 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac lacus eget nunc imperdiet 
                     </p>
                 </div>
 
@@ -468,9 +695,9 @@
         <div class="clients">
             <div class="container">
                 <div class="section-header">
-                    <h2>Our Partners</h2>
+                    <h2>Our Clients</h2>
                     <p>
-                        Who are the supporters behind us  
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac lacus eget nunc imperdiet  
                     </p>
                 </div>
 
@@ -523,7 +750,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7925.202649922006!2d80.0363072!3d6.696199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd8f272a2e65cfce2!2zNsKwNDEnNDUuNCJOIDgwwrAwMicxMC45IkU!5e0!3m2!1sen!2slk!4v1640969728862!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26361250.667320687!2d-113.75533773453304!3d36.24128894212527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sbd!4v1574923227698!5m2!1sen!2sbd" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                         </div>
                     </div>
                 </div>
