@@ -53,7 +53,6 @@
                             Welcome to the website of the Raigampura Social Services Organaization, Welfare and Social Insurance.
                             The website of the RSSO offers easy access to information in connection with the rights and obligations of employees and employers in the field of Social Security.
                             </p>
-                            <a class="btn" href="#">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -68,7 +67,7 @@
                             <p>
                             Many people in Sri Lanka come into contact with social services at some point in their lives. When they do they find valuable services provided by a wide range of individuals and organisations. They experience dedicated and skilled workers who are there to protect and support people or help them to deal with challenging circumstances and to get back on track with their lives.
                             </p>
-                            <a class="btn" href="{{route('about')}}">Read More</a>
+                            <a class="btn" href="{{route('vision')}}">Read More</a>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -80,7 +79,6 @@
                             <p style="height: 193px;">
                             Our mission is to put a smile to every child, mother and father in Sri Lanka and the world by ensuring access to education, nutritious food in partnership with donor companies, policy makers, supporters and the community we serve.
                             </p>
-                            <a class="btn" href="{{route('about')}}">Read More</a>
                         </div>
                     </div>
                 </div>

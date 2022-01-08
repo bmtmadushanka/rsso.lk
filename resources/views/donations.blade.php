@@ -41,7 +41,24 @@
                     we respect you as a family for your donations.children is our future we always protect them 
                     </p>
                 </div>
-                <a class="btn" href="#" style="background: #f1a212f7;border-radius: 30px;">Donate Now</a>
+                <form class="contactForm" action="{{ route('make.payment') }}" method ="POST">
+                @csrf
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="amount" placeholder="Amount" />
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-6">
+                            <input type="text" class="form-control" name="name" placeholder="Your Name" />
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <input type="email" class="form-control" name="email" placeholder="Your Email" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="5" placeholder="Message" name="message"></textarea>
+                    </div>
+                    <div><button class="btn" type="submit" style="background: #f1a212f7;border-radius: 30px;">Donate Now</button></div>
+                </form>
             </div>
         </div>
         <!-- Call To Action End -->        

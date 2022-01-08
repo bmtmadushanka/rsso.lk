@@ -28,10 +28,18 @@
                             @enderror
                         </div>
                         <div class="px-4 py-5 bg-white sm:p-6">
-                            <label for="mobile" class="block font-medium text-sm text-gray-700">Mobile</label>
+                            <label for="mobile" class="block font-medium text-sm text-gray-700">Mobile Phone</label>
                             <input type="text" name="mobile" id="mobile" type="text" class="form-input rounded-md shadow-sm mt-1 block w-full"
                                    value="{{ old('mobile', '') }}" />
                             @error('mobile')
+                                <p class="text-sm text-red-600">{{ $message }}</p>
+                            @enderror
+                        </div>
+                        <div class="px-4 py-5 bg-white sm:p-6">
+                            <label for="home" class="block font-medium text-sm text-gray-700">Home Phone</label>
+                            <input type="text" name="home" id="home" type="text" class="form-input rounded-md shadow-sm mt-1 block w-full"
+                                   value="{{ old('home', '') }}" />
+                            @error('home')
                                 <p class="text-sm text-red-600">{{ $message }}</p>
                             @enderror
                         </div>
@@ -48,6 +56,38 @@
                             <input type="text" name="profession" id="profession" type="text" class="form-input rounded-md shadow-sm mt-1 block w-full"
                                    value="{{ old('profession', '') }}" />
                             @error('profession')
+                                <p class="text-sm text-red-600">{{ $message }}</p>
+                            @enderror
+                        </div>
+                        <div class="px-4 py-5 bg-white sm:p-6">
+                            <label for="role" class="block font-medium text-sm text-gray-700">Organization Role</label>
+                            <input type="text" name="role" id="role" type="text" class="form-input rounded-md shadow-sm mt-1 block w-full"
+                                   value="{{ old('role', '') }}" />
+                            @error('role')
+                                <p class="text-sm text-red-600">{{ $message }}</p>
+                            @enderror
+                        </div>
+                        <div class="px-4 py-5 bg-white sm:p-6">
+                            <label for="nic" class="block font-medium text-sm text-gray-700">NIC Number</label>
+                            <input type="text" name="nic" id="nic" type="text" class="form-input rounded-md shadow-sm mt-1 block w-full"
+                                   value="{{ old('nic', '') }}" />
+                            @error('nic')
+                                <p class="text-sm text-red-600">{{ $message }}</p>
+                            @enderror
+                        </div>
+                        <div class="px-4 py-5 bg-white sm:p-6">
+                            <label for="dob" class="block font-medium text-sm text-gray-700">Date Of Birth</label>
+                            <input type="date" name="dob" id="dob" type="text" class="form-input rounded-md shadow-sm mt-1 block w-full"
+                                   value="{{ old('dob', '') }}" />
+                            @error('dob')
+                                <p class="text-sm text-red-600">{{ $message }}</p>
+                            @enderror
+                        </div>
+                        <div class="px-4 py-5 bg-white sm:p-6">
+                            <label for="doj" class="block font-medium text-sm text-gray-700">Date Of Join</label>
+                            <input type="date" name="doj" id="doj" type="text" class="form-input rounded-md shadow-sm mt-1 block w-full"
+                                   value="{{ old('doj', '') }}" />
+                            @error('doj')
                                 <p class="text-sm text-red-600">{{ $message }}</p>
                             @enderror
                         </div>

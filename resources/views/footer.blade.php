@@ -30,7 +30,7 @@
                                 No.120<br>
                                 Thalawa, Haltota<br>
                                 Bandaragama <br>
-                                <strong>Phone:</strong> 0342252696<br>
+                                <strong>Phone:</strong><span style='font-family: "Times New Roman", Times, serif'> 0342252696</span><br>
                                 <strong>Email:</strong> info@example.com<br>
                             </p>
 

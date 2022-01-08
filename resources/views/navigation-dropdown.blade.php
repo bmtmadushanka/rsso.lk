@@ -30,6 +30,41 @@
                         </x-jet-nav-link>
                     </div>
                 @endcan
+                @can('project_categories_access')
+                    <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                        <x-jet-nav-link href="{{ route('project-category.index') }}" :active="request()->routeIs('project-category.*')">
+                            Project Categories
+                        </x-jet-nav-link>
+                    </div>
+                @endcan
+                @can('material_access')
+                    <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                        <x-jet-nav-link href="{{ route('material.index') }}" :active="request()->routeIs('material.*')">
+                            Materials
+                        </x-jet-nav-link>
+                    </div>
+                @endcan
+                @can('funds_access')
+                    <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                        <x-jet-nav-link href="{{ route('funds.index') }}" :active="request()->routeIs('staff.*')">
+                            Funds
+                        </x-jet-nav-link>
+                    </div>
+                @endcan
+                @can('donations_access')
+                    <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                        <x-jet-nav-link href="{{ route('ourdonations.index') }}" :active="request()->routeIs('staff.*')">
+                            Donations
+                        </x-jet-nav-link>
+                    </div>
+                @endcan
+                @can('balance_report_access')
+                    <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                        <x-jet-nav-link href="{{ route('balance-report.index') }}" :active="request()->routeIs('staff.*')">
+                            Balance Report
+                        </x-jet-nav-link>
+                    </div>
+                @endcan
                 @can('user_access')
                     <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                         <x-jet-nav-link href="{{ route('users.index') }}" :active="request()->routeIs('users.*')">

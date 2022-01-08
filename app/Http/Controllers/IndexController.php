@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Staff;
+use App\Models\Task;
+use App\Models\ProjectCategory;
 
 class IndexController extends Controller
 {
@@ -13,7 +16,10 @@ class IndexController extends Controller
      */
     public function index()
     {
-        return view('index');
+        $tasks= Task::latest()->take(6)->get();
+        $staff = Staff::oldest()->take(4)->get();
+
+        return view('index',compact('tasks','staff'));
     }
 
     /**
@@ -33,7 +39,8 @@ class IndexController extends Controller
      */
     public function services()
     {
-        return view('services');
+        $tasks = Task::all();
+        return view('services',compact('tasks'));
     }
 
 
@@ -64,7 +71,9 @@ class IndexController extends Controller
      */
     public function staffs()
     {
-        return view('staff');
+        $staff = Staff::all();
+
+        return view('staff', compact('staff'));
     }
 
     /**
@@ -77,6 +86,16 @@ class IndexController extends Controller
         return view('members');
     }
     
+     /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function register()
+    {
+        return view('register');
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -85,5 +104,28 @@ class IndexController extends Controller
     public function donations()
     {
         return view('donations');
+    }
+
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function help()
+    {
+        $category = ProjectCategory::get();
+        return view('help', compact('category'));
+    }
+
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function vision()
+    {
+        return view('vision');
     }
 }

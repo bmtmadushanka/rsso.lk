@@ -11,6 +11,6 @@ class Staff extends Model
     use HasFactory, SoftDeletes;
 
     protected $fillable = [
-        'name','address','mobile','email','photo','profession','description'
+        'name','address','mobile','home','role','nic','doj','dob','email','photo','profession','description'
     ];
 }

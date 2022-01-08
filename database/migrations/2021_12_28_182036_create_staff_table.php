@@ -18,9 +18,14 @@ class CreateStaffTable extends Migration
             $table->string('name');
             $table->text('address');
             $table->string('mobile');
+            $table->string('home');
             $table->string('email');
             $table->string('photo')->nullable();
-            $table->text('profession');
+            $table->string('profession');
+            $table->string('role');
+            $table->string('nic');
+            $table->date('doj');
+            $table->date('dob');
             $table->text('description')->nullable();
             $table->timestamps();
             $table->softDeletes();

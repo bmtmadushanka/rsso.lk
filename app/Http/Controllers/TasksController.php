@@ -29,7 +29,12 @@ class TasksController extends Controller
 
     public function store(StoreTaskRequest $request)
     {
-        Task::create($request->validated());
+        $imageName = time().'.'.$request->photo->extension();  
+     
+        $request->photo->move(public_path('images/services'), $imageName);
+
+        $request = array_merge($request->validated(), ['photo' => $imageName]);
+        Task::create($request);
 
         return redirect()->route('tasks.index');
     }
@@ -50,7 +55,15 @@ class TasksController extends Controller
 
     public function update(UpdateTaskRequest $request, Task $task)
     {
-        $task->update($request->validated());
+        if($request->photo){
+            $imageName = time().'.'.$request->photo->extension();  
+     
+            $request->photo->move(public_path('images/services'), $imageName);
+    
+            $request = array_merge($request->validated(), ['photo' => $imageName]);
+        }
+       
+        $task->update($request);
 
         return redirect()->route('tasks.index');
     }

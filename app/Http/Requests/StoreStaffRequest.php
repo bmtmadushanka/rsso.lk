@@ -19,11 +19,29 @@ class StoreStaffRequest extends FormRequest
             'mobile' => [
                 'required', 'string',
             ],
+            'home' => [
+                'required', 'string',
+            ],
             'email' => [
                 'required', 'email',
             ],
             'profession' => [
                 'required', 'string',
+            ],
+            'role' => [
+                'required', 'string',
+            ],
+            'nic' => [
+                'required', 'string',
+            ],
+            'dob' => [
+                'required', 'string',
+            ],
+            'doj' => [
+                'required', 'string',
+            ],
+            'photo' => [
+                'required', 'file',
             ]
         ];
     }
